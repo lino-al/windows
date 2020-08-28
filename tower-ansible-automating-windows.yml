@@ -26,7 +26,7 @@
    - name: Copy neerdd.jpg
      win_copy:
        src: neerdd.jpg
-       dest: C:\Users\Administrator\Downloads
+       dest: C:\Users\Administrator\Downloads\neerdd.jpg
    
    - name: Run a PowerShell Script
      script: files/helloworld.ps1
