@@ -28,6 +28,11 @@
        src: neerdd.jpg
        dest: C:\Users\Administrator\Downloads\neerdd.jpg
    
+   - name: Install IIS (Web-Server only)
+     win_feature:
+       name: Web-Server
+       state: present
+   
    - name: Run a PowerShell Script
      script: files/helloworld.ps1
      register: script
