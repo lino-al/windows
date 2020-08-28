@@ -5,8 +5,8 @@
   tasks:
    - name: Add a Windows Admin User
      win_user:
-       name: student4
-       password: "MBlyYTOiKNjwbf"
+       name: ansible
+       password: "Redhat1!"
        state: present
        groups:
            - Administrators
